@@ -130,10 +130,12 @@ useEffect(() => {
                 Chetan Patel
               </h2>
             </div>
-             <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+             <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-1">
                Viral Plywood
               </h2>
-           
+            <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-1">
+               Aakar Sales
+              </h2>
           </div>
 
 
