@@ -130,6 +130,9 @@ useEffect(() => {
                 Chetan Patel
               </h2>
             </div>
+             <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+               Viral Plywood
+              </h2>
            
 
           </div>
