@@ -132,14 +132,14 @@ useEffect(() => {
             </div>
 
             <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-12">   
-              →
+               <span className="text-[#FFF5B9]">→</span>
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
                 Viral Plywood
               </h2>
             </div>
 
 <div className="flex flex-col-1 gap-4 justify-center items-center mt-1 md:ml-10 ml-8">
-  →
+  <span className="text-[#FFF5B9]">→</span>
              
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
                  Aakar Sales
