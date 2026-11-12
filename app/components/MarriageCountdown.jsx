@@ -59,7 +59,7 @@ useEffect(() => {
     <>
       {/* <div className="bg-[url('/assets/countdown_bg.jpg')] bg-cover bg-no-repeat pb-12"> */}
       <div className="md:bg-[url('/assets/countdown_desktop_bg.png')] bg-[url('/assets/countdown_mobile_bg.jpg')] bg-cover bg-no-repeat pb-12 md:pt-0 pt-10 ">
-        <div className="min-h-220 lg:min-h-375 h-80">
+        <div className="min-h-230 lg:min-h-375 h-80">
           <h2 className="lg:text-[60px] text-4xl text-center text-[#FFF5B9] lg:pt-42 pt-12 font-parisienne ">
             The Journey Begins
           </h2>
