@@ -130,15 +130,20 @@ useEffect(() => {
                 Chetan Patel
               </h2>
             </div>
-             <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-1">
-               Viral Plywood
-              </h2>
-            <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-1">
-               Aakar Sales
-              </h2>
-          </div>
 
+            <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">   
+              
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+                Viral Plywood
+              </h2>
+            </div>
 
+<div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
+              
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+                 Aakar Sales
+              </h2>
+            </div>
 
           
         </div>
