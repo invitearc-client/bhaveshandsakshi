@@ -57,47 +57,37 @@ export default function CoupleMessage() {
               modules={[EffectCoverflow, Pagination, Autoplay]}
               className="mySwiper"
             >
-            
- <SwiperSlide>
-                <img src="/assets/tej1.png" />
+              <SwiperSlide>
+                <img src="/assets/garima1.webp" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/assets/tej2.png" />
+                <img src="/assets/garima2.webp" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/assets/tej3.png" />
+                <img src="/assets/garima3.webp" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/assets/tej4.png" />
+                <img src="/assets/garima4.webp" />
               </SwiperSlide>
-  <SwiperSlide>
-                <img src="/assets/tej8.png" />
+              <SwiperSlide>
+                <img src="/assets/garima5.webp" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/assets/tej5.png" />
+                <img src="/assets/garima6.webp" />
               </SwiperSlide>
-
-              <SwiperSlide>
-                <img src="/assets/tej6.png" />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <img src="/assets/tej7.png" />
-              </SwiperSlide>
-             
             </Swiper>
           </div>
 
           <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF5B9] lg:pt-32 pt-12 font-parisienne">
             A Guide for <br /> Guests
           </h1>
-<h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
+          <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
             Your presence means the world to us. To make your experience
-            effortless <br className="hidden lg:block"/> and enjoyable, we’ve gathered a few useful details
-            below.
+            effortless <br className="hidden lg:block" /> and enjoyable, we’ve
+            gathered a few useful details below.
           </h2>
           <div className="flex justify-center mt-20 pb-24">
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
@@ -126,9 +116,7 @@ export default function CoupleMessage() {
                   Staff
                 </h2>
                 <p className="text-[14px] text-[#FFF5B9] mt-1 font-cormorant">
-                  We recommend the nearby <br />
-                  lodge called VEGA near the <br />
-                  venue for the staff members
+                  We recommend nearby <br/>accommodation near the <br/>venue for the staff members.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center text-center">

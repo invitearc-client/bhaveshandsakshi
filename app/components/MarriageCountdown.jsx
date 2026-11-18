@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function MarriageCountdown() {
-  const TARGET_DATE = new Date("2026-11-26").getTime();
+  const TARGET_DATE = new Date("2027-01-31").getTime();
  const [timeLeft, setTimeLeft] = useState({
   days: 14,
   hours: 12,
@@ -87,64 +87,20 @@ useEffect(() => {
 
           <div className="flex flex-col justify-center items-center lg:ml-0 ml-24">
             <h2 className="lg:text-7xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
-              Awaiting the Pleasure <br />
-              of Your Company
+              With best Compliments <br />
+              from
             </h2>
          
 
-               <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
-              <a href="https://wa.me/9422159028" target="_blank">
-                <img
-                  src="/assets/whatsapp.png"
-                  alt=""
-                  className="lg:h-10 lg:w-10 h-6 w-6"
-                />
-              </a>
+               <div className="flex flex-col-1 gap-4 justify-center items-center mt-5 md:ml-10 ml-8">
+              
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Jagdish Patel
+               Ramautar <br/> Sunita <br/>
+               Vishakha Sharma
               </h2>
             </div>
 
-<div className="flex flex-col-1 gap-4 justify-center items-center mt-2 ml-1 md:ml-0">
-              <a href="https://wa.me/9370153277" target="_blank">
-                <img
-                  src="/assets/whatsapp.png"
-                  alt=""
-                  className="lg:h-10 lg:w-10 h-6 w-6"
-                />
-              </a>
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Jitu Patel
-              </h2>
-            </div>
 
-   <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
-              <a href="https://wa.me/9420188822" target="_blank">
-                <img
-                  src="/assets/whatsapp.png"
-                  alt=""
-                  className="lg:h-10 lg:w-10 h-6 w-6"
-                />
-              </a>
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Chetan Patel
-              </h2>
-            </div>
-
-            <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-12">   
-               <span className="text-[#FFF5B9]">→</span>
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Viral Plywood
-              </h2>
-            </div>
-
-<div className="flex flex-col-1 gap-4 justify-center items-center mt-1 md:ml-10 ml-8">
-  <span className="text-[#FFF5B9]">→</span>
-             
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                 Aakar Sales
-              </h2>
-            </div>
 
           
         </div>
