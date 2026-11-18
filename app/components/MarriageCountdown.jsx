@@ -89,16 +89,15 @@ useEffect(() => {
             <h2 className="lg:text-7xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
               With best Compliments <br />
               from
+
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-2">
+               Ramautar, Sunita &
+               Vishakha Sharma
+              </h2>
             </h2>
          
 
-               <div className="flex flex-col-1 gap-4 justify-center items-center mt-5 md:ml-10 ml-8">
-              
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-               Ramautar <br/> Sunita <br/>
-               Vishakha Sharma
-              </h2>
-            </div>
+               
 
 
 

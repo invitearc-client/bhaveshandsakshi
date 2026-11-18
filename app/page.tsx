@@ -247,11 +247,11 @@ export default function Home() {
 
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
-          <h2 className="text-[#15528A]  text-center leading-tight text-[30px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
+          <h2 className="text-[#15528A]  text-center leading-tight text-[36px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
               Garima
             </span>
-            <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
+            <span className="text-[14px] sm:text-3xl tracking-[6px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Vishal</span>
           </h2>
 
@@ -302,7 +302,7 @@ export default function Home() {
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
               (Son of Mrs. Binita & Mr. Binay Thakur) <br />
-              (Grandson of late Smt. Indrason Devi & Late Shri Maharaj Tahkur)
+              (Grandson of late Smt. Indrason Devi & Late Shri Maharaj Thakur)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -329,13 +329,7 @@ export default function Home() {
                     <span className="text-[22px]">  {event.time} </span>
                   </p>
 
-                  <a
-                    href={event.link}
-                    className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
-                    target="_blank"
-                  >
-                    See the route
-                  </a>
+                 
 
 
                 </div>
@@ -355,8 +349,15 @@ export default function Home() {
                 Somanth, Atiyawad, Ringanwada, Daman, <br />
                 Dadra and Nagar Haveli and Daman <br />
                 and Diu 396210</span> <br />
-
+<a
+                    href="https://maps.app.goo.gl/PhQbSuw2f2EReetR8"
+                    className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
+                    target="_blank"
+                  >
+                    See the route
+                  </a>
             </p>
+             
           </div>
           <div className="lg:h-350 md:h-180 h-86 lg:pt-20 pt-30 lg:pr-180 md:pr-100 pr-40 flex flex-col justify-end items-center text-center md:pb-40 pb-10 lg:pb-0  ">
 
