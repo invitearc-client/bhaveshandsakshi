@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://GarimawedsVishal1.vercel.app/og.jpg",
+    "og:image:secure_url": "https://garimawedsvishal1.vercel.app/og.jpg",
     "og:image:type": "image/jpeg",
   },
 
