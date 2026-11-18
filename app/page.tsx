@@ -154,7 +154,7 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/garima.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/garima_mobile3.png')]
+    bg-[url('/assets/garima_mobile.webp')]
     md:bg-[url('/assets/hitched_desktopbg.webp')]  3xl:bg-[url('/assets/hitched_desktopbg.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full md:px-4 sm:px-8 overflow-hidden relative">
 
