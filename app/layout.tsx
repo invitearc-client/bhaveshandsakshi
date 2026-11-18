@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://garimawedsvishal.vercel.app/"),
+  metadataBase: new URL("https://garimawedsvishal1.vercel.app/"),
 
   openGraph: {
     title: "Garima Weds Vishal",
     description: "Join as they begin their forever. 30 & 31 January, 2027",
-    url: "https://garimawedsvishal.vercel.app/",
+    url: "https://garimawedsvishal1.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://GarimawedsVishal.vercel.app/og.jpg",
+    "og:image:secure_url": "https://GarimawedsVishal1.vercel.app/og.jpg",
     "og:image:type": "image/jpeg",
   },
 
