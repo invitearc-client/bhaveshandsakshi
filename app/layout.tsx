@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://garimawedsvishal.vercel.app/"),
 
   openGraph: {
-    title: "Garima Patel Weds Vishal Patel",
+    title: "Garima Weds Vishal",
     description: "Join as they begin their forever. 30 & 31 January, 2027",
     url: "https://garimawedsvishal.vercel.app/",
     siteName: "InviteArc",
