@@ -329,7 +329,7 @@ export default function Home() {
                     <span className="text-[22px]">  {event.time} </span>
                   </p>
 
-                 
+
 
 
                 </div>
@@ -349,15 +349,15 @@ export default function Home() {
                 Somanth, Atiyawad, Ringanwada, Daman, <br />
                 Dadra and Nagar Haveli and Daman <br />
                 and Diu 396210</span> <br />
-<a
-                    href="https://maps.app.goo.gl/PhQbSuw2f2EReetR8"
-                    className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
-                    target="_blank"
-                  >
-                    See the route
-                  </a>
+              <a
+                href="https://maps.app.goo.gl/PhQbSuw2f2EReetR8"
+                className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
+                target="_blank"
+              >
+                See the route
+              </a>
             </p>
-             
+
           </div>
           <div className="lg:h-350 md:h-180 h-86 lg:pt-20 pt-30 lg:pr-180 md:pr-100 pr-40 flex flex-col justify-end items-center text-center md:pb-40 pb-10 lg:pb-0  ">
 
@@ -398,24 +398,24 @@ export default function Home() {
 
 
 
-<div className="w-full relative">
-  <picture className="block w-full">
-    <source
-      media="(min-width: 768px)"
-      srcSet="/assets/bride1.png"
-    />
+      <div className="w-full relative">
+        <picture className="block w-full">
+          <source
+            media="(min-width: 768px)"
+            srcSet="/assets/bride1.png"
+          />
 
-    <img
-      src="/assets/bide_mobilet.jpg"
-      alt=""
-      className="block w-full h-auto"
-    />
-  </picture>
+          <img
+            src="/assets/bide_mobilet.jpg"
+            alt=""
+            className="block w-full h-auto"
+          />
+        </picture>
 
-  <p className="absolute md:top-50 lg:top-110 top-55 left-0 w-full text-center text-[#071949] font-Cormorant-upright lg:text-[50px] md:text-2xl text-[32px] z-10 font-bold">
-    #VishalGotGarima
-  </p>
-</div>
+        <p className="absolute md:top-50 lg:top-110 top-55 left-0 w-full text-center text-[#071949] font-Cormorant-upright lg:text-[50px] md:text-2xl text-[32px] z-10 font-bold">
+          #VishalGotGarima
+        </p>
+      </div>
 
 
 
