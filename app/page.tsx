@@ -301,7 +301,7 @@ export default function Home() {
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (Son of Mrs. Binita & Mr. Binay Thakur) <br />
+              (Son of Mrs. Binita & Mr. Binay Kumar Thakur) <br />
               (Grandson of late Smt. Indrason Devi & Late Shri Maharaj Thakur)
             </p>
 
@@ -381,18 +381,44 @@ export default function Home() {
 
       <CoupleMessage />
 
-      <picture className="block w-full">
+      {/* <picture className="block w-full">
         <source
           media="(min-width: 768px)"
           srcSet="/assets/bride1.png"
         />
-
+<p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
+              (Son of Mrs. Binita & Mr. Binay Kumar Thakur) </p>
         <img
           src="/assets/bide_mobilet.jpg"
           alt=""
           className="block w-full h-auto"
         />
-      </picture>
+      </picture> */}
+
+
+
+
+<div className="w-full relative">
+  <picture className="block w-full">
+    <source
+      media="(min-width: 768px)"
+      srcSet="/assets/bride1.png"
+    />
+
+    <img
+      src="/assets/bide_mobilet.jpg"
+      alt=""
+      className="block w-full h-auto"
+    />
+  </picture>
+
+  <p className="absolute md:top-50 lg:top-110 top-55 left-0 w-full text-center text-[#071949] font-Cormorant-upright lg:text-[50px] md:text-2xl text-[32px] z-10 font-bold">
+    #VishalGotGarima
+  </p>
+</div>
+
+
+
 
       <MarriageCountdown />
 
