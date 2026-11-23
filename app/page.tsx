@@ -48,27 +48,27 @@ export default function Home() {
       Main_title_ceremony: "Full Filmy Phool Masti",
       image: "/assets/carnival.webp",
       time: "1:00pm - 4:00pm",
-      venue: "Pool Lawn",
+      venue: "Venue: Pool Lawn",
 
       Main_title_ceremony2: "Disco Deewaane",
       time2: "8:00pm – 11:00pm",
-      venue2: "Podium Lawn",
+      venue2: "Venue: Podium Lawn",
       image2: "/assets/deewane.webp",
 
     },
     {
       date: "Sunday, 20th December 2026",
 
-   Main_title_ceremony: "Sath Sugun",
+      Main_title_ceremony: "Saath Sugun",
       image: "/assets/carnival.webp",
       time: "8:00am",
-      venue: "Anand Karaj Hall",
+    
 
 
       Main_title_ceremony2: "Sehra Bandhan",
       image2: "/assets/sehra.webp",
       time2: "11:30am",
-      venue2: "Anand Karaj Hall",
+      venue2: "Venue: Anand Karaj Hall",
 
       Main_title_ceremony3: "Band Baaja Baarat",
       time3: "12:30pm – 2:00pm",
@@ -77,20 +77,20 @@ export default function Home() {
 
       Main_title_ceremony4: "Baaraatiyon Ka Dil Se Swagat",
       time4: "2:00pm – 3:00pm",
-      venue4: "Anand Karaj Hal",
+      venue4: "Venue: Anand Karaj Hal",
       image4: "/assets/swagat.webp",
 
 
       Main_title_ceremony5: "Jai Mala",
       time5: "5:00pm",
-      venue5: "Mahal Terrace",
+      venue5: "Venue: Mahal Terrace",
       image5: "/assets/jai_mala.webp",
 
 
       Main_title_ceremony6: "Saat Vachan",
       time6: "6:00pm – 8:00pm",
-      venue6: "Mahal Terrace",
-      image6: "/assets/saath_phere.webp",
+      venue6: "Venue: Mahal Terrace",
+      image6: "/assets/vachan.webp",
 
 
       Main_title_ceremony7: "The Family Jam",
@@ -298,8 +298,8 @@ export default function Home() {
             </p>
 
 
-<p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-             to celebrate the joyous wedding of
+            <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
+              to celebrate the joyous wedding of
             </p>
 
 
@@ -308,9 +308,9 @@ export default function Home() {
               BHAVESH
             </h2>
 
-            <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
+            <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[20px]">
 
-              (Son of Mrs. Preeti Adwani & Mr. Mahesh Adwani) <br />
+              (Son of Mrs. Preeti & Mr. Mahesh Adwani) <br />
 
             </p>
 
@@ -318,12 +318,12 @@ export default function Home() {
             <h2 className="text-white font-Cormorant-upright text-center mt-4
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4 
-            md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
+            md:text-4xl text-[32px] lg:text-[60px] leading-tight">Weds</span>   <br />
               SAKSHI
             </h2>
 
-            <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (Daughter of Mrs. Muskan M. Kataria & Mr. Mukesh D. Kataria) <br />
+            <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[20px]">
+              (Daughter of Mrs. Muskan & Mr. Mukesh Kataria) <br />
 
             </p>
 
@@ -332,11 +332,11 @@ export default function Home() {
             </p>
           </div>
 
-             <div className="flex flex-col-1 justify-center items-center mt-16">
+          <div className="flex flex-col-1 justify-center items-center mt-16">
             <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2 text-center">
               <span className="text-[24px] uppercase font-bold">Venue</span>  <br />
               <span className="text-[24px] ">Vijan Mahal</span> <br />
-              <span className="text-[20px]">114/2 and 107, Mandla - Jabalpur Rd, <br/> Tilhari, Madhya Pradesh 482020</span> <br />
+              <span className="text-[20px]">114/2 and 107, Mandla - Jabalpur Rd, <br /> Tilhari, Madhya Pradesh 482020</span> <br />
               <a
                 href="https://maps.app.goo.gl/iH5R8UBvyehWnDnQA"
                 className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
@@ -348,7 +348,10 @@ export default function Home() {
 
           </div>
 
-          <div className="flex justify-center mt-20 md:mb-30 3xl:mb-40">
+          <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-15 md:mt-20 text-center">
+            THE WEDDING CELEBRATIONS
+          </p>
+          <div className="flex justify-center mt-10 md:mb-30 3xl:mb-40">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
@@ -469,7 +472,7 @@ export default function Home() {
                   </p>
 
 
-                      {event.image7 && (<img
+                  {event.image7 && (<img
                     src={event.image7}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
@@ -493,7 +496,7 @@ export default function Home() {
           </div>
 
 
-       
+
           <div className="lg:h-350 md:h-180 h-86 lg:pt-20 pt-30 lg:pr-180 md:pr-100 pr-40 flex flex-col justify-end items-center text-center md:pb-40 pb-10 lg:pb-0  ">
 
             <h1 className="lg:text-7xl md:text-xl text-xl text-[#E1EF1E] font-parisienne ">
@@ -501,9 +504,9 @@ export default function Home() {
             </h1>
 
             <h2 className="lg:text-[40px] md:text-xl text-[14px] text-[#ADBAE7] lg:pt-12 pt-6  font-eb-garamond md:leading-6 lg:leading-12 leading-5 lg:px-40">
-             
-             Two hearts, one journey and countless dreams to share! We can't wait to celebrate our special moments with the people who make our lives beautiful.Your presence and blessings will make our celebrations even more special and memorable.
-               </h2>
+
+              Two hearts, one journey and countless dreams to share! We can't wait to celebrate our special moments with the people who make our lives beautiful.Your presence and blessings will make our celebrations even more special and memorable.
+            </h2>
           </div>
 
         </div>
