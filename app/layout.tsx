@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://garimaandvishal.vercel.app/"),
+  metadataBase: new URL("https://bhaveshandsakshi.vercel.app/"),
 
   openGraph: {
-    title: "Garima Weds Vishal",
-    description: "Join as they begin their forever. 30 & 31 January, 2027",
-    url: "https://garimaandvishal.vercel.app/",
+    title: "Bhavesh Weds Sakshi",
+    description: "Join as they begin their forever. 19 & 20 December, 2026",
+    url: "https://bhaveshandsakshi.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Garima Weds Vishal",
+        alt: "Bhavesh Weds Sakshi",
       },
     ],
     type: "website",
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Garima Weds Vishal",
-    description: "Join as they begin their forever. 30 & 31 January, 2027",
+    title: "Bhavesh Weds Sakshi",
+    description: "Join as they begin their forever. 19 & 20 December, 2026",
     images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://garimaandvishal.vercel.app/og.jpg",
+    "og:image:secure_url": "https://bhaveshandsakshi.vercel.app/og.jpg",
     "og:image:type": "image/jpeg",
   },
 

@@ -43,52 +43,67 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-
     {
-      title_ceremony: "Haldi",
-      image: "/assets/haldi.png",
-      date: "Saturday, January 30th 2027",
-      venue: "The Laali Imperial",
-      venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
-      time: " 9:00 am onwards",
-      link: "https://maps.app.goo.gl/M5JXhzABf3duaxNz7?g_st=ic",
+      date: "Saturday, 19th December 2026",
+      Main_title_ceremony: "Full Filmy Phool Masti",
+      image: "/assets/carnival.webp",
+      time: "1:00pm - 4:00pm",
+      venue: "Pool Lawn",
+
+      Main_title_ceremony2: "Disco Deewaane",
+      time2: "8:00pm – 11:00pm",
+      venue2: "Podium Lawn",
+      image2: "/assets/deewane.webp",
+
+    },
+    {
+      date: "Sunday, 20th December 2026",
+
+   Main_title_ceremony: "Sath Sugun",
+      image: "/assets/carnival.webp",
+      time: "8:00am",
+      venue: "Anand Karaj Hall",
+
+
+      Main_title_ceremony2: "Sehra Bandhan",
+      image2: "/assets/sehra.webp",
+      time2: "11:30am",
+      venue2: "Anand Karaj Hall",
+
+      Main_title_ceremony3: "Band Baaja Baarat",
+      time3: "12:30pm – 2:00pm",
+      // venue3: "Pool Lawn",
+      image3: "/assets/baarat.webp",
+
+      Main_title_ceremony4: "Baaraatiyon Ka Dil Se Swagat",
+      time4: "2:00pm – 3:00pm",
+      venue4: "Anand Karaj Hal",
+      image4: "/assets/swagat.webp",
+
+
+      Main_title_ceremony5: "Jai Mala",
+      time5: "5:00pm",
+      venue5: "Mahal Terrace",
+      image5: "/assets/jai_mala.webp",
+
+
+      Main_title_ceremony6: "Saat Vachan",
+      time6: "6:00pm – 8:00pm",
+      venue6: "Mahal Terrace",
+      image6: "/assets/saath_phere.webp",
+
+
+      Main_title_ceremony7: "The Family Jam",
+      time7: "10:00pm – 12:00am",
+      // venue7: "Mahal Terrace",
+      image7: "/assets/jam.webp",
+
+
+
+
     },
 
 
-
-
-
-    {
-      title_ceremony: "Bhaat",
-      image: "/assets/bhaat.png",
-      date: "Saturday, January 30th 2027",
-      venue: "The Laali Imperial",
-      venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
-      time: " 12:00 am onwards",
-      link: "https://maps.app.goo.gl/M5JXhzABf3duaxNz7?g_st=ic",
-    },
-
-
-    {
-      title_ceremony: "Sangeet",
-      image: "/assets/sangeet.webp",
-      date: "Saturday, January 30th 2027",
-      venue: "The Laali Imperial",
-      venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
-      time: "6:00 pm onwards",
-      link: "https://maps.app.goo.gl/M5JXhzABf3duaxNz7?g_st=ic",
-    },
-
-
-    {
-      title_ceremony: "Wedding",
-      image: "/assets/shaadi.webp",
-      date: "Sunday, January 31st 2027",
-      venue: "Hotel Prince Garden",
-      venue_address: <>13, Vapi - Daman Main Rd,<br /> Somanth, Atiyawad, Ringanwada, Daman, <br />Dadra and  Nagar Haveli and Daman <br />and Diu 396210</>,
-      time: "5:00 pm onwards",
-      link: "https://maps.app.goo.gl/LTEYjT67Jz1GT9a69",
-    },
 
 
 
@@ -151,14 +166,12 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/garima.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/BHAVESH.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/garima_mobile.webp')]
-    md:bg-[url('/assets/hitched_desktopbg.webp')]  3xl:bg-[url('/assets/hitched_desktopbg.webp')]
+    bg-[url('/assets/bhavesh_mobile.webp')]
+    md:bg-[url('/assets/bhavesh_desktop.webp')]  3xl:bg-[url('/assets/bhavesh_desktop.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full md:px-4 sm:px-8 overflow-hidden relative">
-
-
 
 
         {/* Decorative Lamps - Natural Flow Pattern */}
@@ -248,11 +261,11 @@ export default function Home() {
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
           <h2 className="text-[#15528A]  text-center leading-tight text-[36px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
-            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
-              Garima
+            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
+              Bhavesh
             </span>
             <span className="text-[14px] sm:text-3xl tracking-[6px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Vishal</span>
+            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Sakshi</span>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150 3xl:pt-280">
@@ -268,28 +281,31 @@ export default function Home() {
             />
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              The Sharma Family
+              THE ADWANI FAMILY
             </h2>
           </div>
 
           <div className="mt-8 text-center">
-            <h2 className="text-white font-cormorant 
+            {/* <h2 className="text-white font-cormorant 
             text-3xl sm:text-5xl lg:text-[60px] leading-tight lg:tracking-wide tracking-wider">
-              INVITES
-            </h2>
+              cordially invites you
+            </h2> */}
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-              you to join us in the wedding celebrations of
+              cordially invites you<br />
+              With the heavenly blessings of <br />
+              Late Smt. Dwaribai K. Adwani & Late Shri Kanhaiyalal M. Adwani
             </p>
 
             <h2 className="text-white font-Cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              Garima
+              BHAVESH
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (Daughter of Mrs. Sunita & Ramautar Sharma) <br />
-              (Granddaughter of late Smt. Banarsi Devi & late Shri Hanuman Prasad Sharma)
+
+              (Son of Mrs. Preeti Adwani & Mr. Mahesh Adwani) <br />
+
             </p>
 
 
@@ -297,12 +313,12 @@ export default function Home() {
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              Vishal
+              SAKSHI
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (Son of Mrs. Binita & Mr. Binay Kumar Thakur) <br />
-              (Grandson of late Smt. Indrason Devi & Late Shri Maharaj Thakur)
+              (Daughter of Mrs. Muskan M. Kataria & Mr. Mukesh D. Kataria) <br />
+
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -310,47 +326,13 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex justify-center mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-32 gap-16 ">
-              {events.map((event, i) => (
-                <div key={i} className="flex flex-col items-center text-center">
-                  <img
-                    src={event.image}
-                    alt={event.venue}
-                    className="lg:w-80 w-70 sm:w-76 h-auto"
-                  />
-
-                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
-                    {event.title_ceremony}
-                  </h2>
-
-                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[22px]">{event.date}</span>  <br />
-                    <span className="text-[22px]">  {event.time} </span>
-                  </p>
-
-
-
-
-                </div>
-              ))}
-
-
-
-            </div>
-
-          </div>
-
-          <div className="flex flex-col-1 justify-center items-center mt-16">
+             <div className="flex flex-col-1 justify-center items-center mt-16">
             <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2 text-center">
               <span className="text-[24px] uppercase font-bold">Venue</span>  <br />
-              <span className="text-[24px] ">Hotel Prince Garden</span> <br />
-              <span className="text-[20px]">13, Vapi - Daman Main Rd, <br />
-                Somanth, Atiyawad, Ringanwada, Daman, <br />
-                Dadra and Nagar Haveli and Daman <br />
-                and Diu 396210</span> <br />
+              <span className="text-[24px] ">Vijan Mahal</span> <br />
+              <span className="text-[20px]">114/2 and 107, Mandla - Jabalpur Rd, <br/> Tilhari, Madhya Pradesh 482020</span> <br />
               <a
-                href="https://maps.app.goo.gl/PhQbSuw2f2EReetR8"
+                href="https://maps.app.goo.gl/iH5R8UBvyehWnDnQA"
                 className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
                 target="_blank"
               >
@@ -359,6 +341,153 @@ export default function Home() {
             </p>
 
           </div>
+
+          <div className="flex justify-center mt-20 md:mb-30 3xl:mb-40">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-32 gap-16 ">
+              {events.map((event, i) => (
+                <div key={i} className="flex flex-col items-center text-center">
+                  <p className="text-white font-Cormorant-upright text-[26px] lg:text-[30px] mb-6">
+                    {event.date}
+
+                  </p>
+                  <img
+                    src={event.image}
+                    alt={event.Main_title_ceremony2}
+                    className="lg:w-80 w-60 sm:w-76  h-auto"
+                  />
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                    {event.Main_title_ceremony}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base">
+                    <span className="text-[22px]">  {event.time} </span>
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[24px]">
+
+                    {event.venue}
+
+                  </p>
+                  {event.image2 && (<img
+                    src={event.image2}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony2}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time2} </span>
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[24px]">
+                    {event.venue2}
+                  </p>
+
+
+
+
+                  {event.image3 && (<img
+                    src={event.image3}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony3}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time3} </span>
+                  </p>
+                  {/* <p className="text-white font-Cormorant-upright text-[14px] sm:text-[24px]">
+                    {event.venue3}
+                  </p> */}
+
+
+                  {event.image4 && (<img
+                    src={event.image4}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony4}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time4} </span>
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[24px]">
+                    {event.venue4}
+                  </p>
+
+
+
+
+                  {event.image5 && (<img
+                    src={event.image5}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony5}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time5} </span>
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[24px]">
+                    {event.venue5}
+                  </p>
+
+
+
+                  {event.image6 && (<img
+                    src={event.image6}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony6}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time6} </span>
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[24px]">
+                    {event.venue6}
+                  </p>
+
+
+                      {event.image7 && (<img
+                    src={event.image7}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony7}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time7} </span>
+                  </p>
+                  {/* <p className="text-white font-Cormorant-upright text-[14px] sm:text-[24px]">
+                    {event.venue7}
+                  </p> */}
+
+
+                </div>
+              ))}
+            </div>
+          </div>
+
+
+       
           <div className="lg:h-350 md:h-180 h-86 lg:pt-20 pt-30 lg:pr-180 md:pr-100 pr-40 flex flex-col justify-end items-center text-center md:pb-40 pb-10 lg:pb-0  ">
 
             <h1 className="lg:text-7xl md:text-xl text-xl text-[#E1EF1E] font-parisienne ">
@@ -366,8 +495,9 @@ export default function Home() {
             </h1>
 
             <h2 className="lg:text-[40px] md:text-xl text-[14px] text-[#ADBAE7] lg:pt-12 pt-6  font-eb-garamond md:leading-6 lg:leading-12 leading-5 lg:px-40">
-              Thank you for being part of our journey. Your presence makes this celebration truly meaningful, and we look forward to sharing these cherished moments with you.
-            </h2>
+             
+             Two hearts, one journey and countless dreams to share! We can't wait to celebrate our special moments with the people who make our lives beautiful.Your presence and blessings will make our celebrations even more special and memorable.
+               </h2>
           </div>
 
         </div>
@@ -412,9 +542,9 @@ export default function Home() {
           />
         </picture>
 
-        <p className="absolute md:top-50 lg:top-110 top-55 left-0 w-full text-center text-[#071949] font-Cormorant-upright lg:text-[50px] md:text-2xl text-[32px] z-10 font-bold">
-          #VishalGotGarima
-        </p>
+        {/* <p className="absolute md:top-50 lg:top-110 top-55 left-0 w-full text-center text-[#071949] font-Cormorant-upright lg:text-[50px] md:text-2xl text-[32px] z-10 font-bold">
+          #SAKSHIGotBHAVESH
+        </p> */}
       </div>
 
 

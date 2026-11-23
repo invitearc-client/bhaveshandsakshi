@@ -2,79 +2,81 @@
 import { useEffect, useState } from "react";
 
 export default function MarriageCountdown() {
-  const TARGET_DATE = new Date("2027-01-31").getTime();
- const [timeLeft, setTimeLeft] = useState({
-  days: 14,
-  hours: 12,
-  minutes: 28,
-  seconds: 0, 
-});
+  const TARGET_DATE = new Date("2026-12-20").getTime();
+  const [timeLeft, setTimeLeft] = useState({
+    days: 14,
+    hours: 12,
+    minutes: 28,
+    seconds: 0,
+  });
 
-useEffect(() => {
-  const updateCountdown = () => {
-    const now = new Date().getTime();
-    const diff = TARGET_DATE - now;
+  useEffect(() => {
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const diff = TARGET_DATE - now;
 
-    if (diff <= 0) {
+      if (diff <= 0) {
+        setTimeLeft({
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0,
+        });
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+      const hours = Math.floor(
+        (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+      );
+
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
       setTimeLeft({
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0,
+        days,
+        hours,
+        minutes,
+        seconds,
       });
-      return;
-    }
+    };
 
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    updateCountdown();
 
-    const hours = Math.floor(
-      (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
+    // Update every second
+    const interval = setInterval(updateCountdown, 1000);
 
-    const minutes = Math.floor(
-      (diff % (1000 * 60 * 60)) / (1000 * 60)
-    );
-
-    const seconds = Math.floor(
-      (diff % (1000 * 60)) / 1000
-    );
-
-    setTimeLeft({
-      days,
-      hours,
-      minutes,
-      seconds,
-    });
-  };
-
-  updateCountdown();
-
-  // Update every second
-  const interval = setInterval(updateCountdown, 1000);
-
-  return () => clearInterval(interval);
-}, []);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
       {/* <div className="bg-[url('/assets/countdown_bg.jpg')] bg-cover bg-no-repeat pb-12"> */}
       <div className="md:bg-[url('/assets/countdown_desktop_bg.png')] bg-[url('/assets/countdown_mobile_bg.jpg')] bg-cover bg-no-repeat pb-12 md:pt-0 pt-10 ">
-        <div className="min-h-230 lg:min-h-375 h-80">
+        <div className="min-h-260 md:min-h-300 lg:min-h-400 h-80">
           <h2 className="lg:text-[60px] text-4xl text-center text-[#FFF5B9] lg:pt-42 pt-12 font-parisienne ">
             The Journey Begins
           </h2>
 
           <p className="lg:text-[22px] text-[20px] text-[#FFF5B9] mt-6 text-center lg:px-100 md:px-25 px-10 font-Cormorant-upright">
-           Our families are excited that you are able to join us in celebrating <br/> what we hope will be one of the happiest days of our lives.
+            Our families are excited that you are able to join us in celebrating{" "}
+            <br /> what we hope will be one of the happiest days of our lives.
           </p>
 
           <h2 className="lg:text-[60px] text-2xl text-center text-[#FFF5B9] font-Cormorant-upright">
             {" "}
-            {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M {timeLeft.seconds}S
+            {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M{" "}
+            {timeLeft.seconds}S
           </h2>
           <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
-              <img src="/assets/instagram_w.png" alt="" className="h-9 md:h-14 w-9 md:w-14" />
+              <img
+                src="/assets/instagram_w.png"
+                alt=""
+                className="h-9 md:h-14 w-9 md:w-14"
+              />
             </a>
           </div>
           <p className="lg:text-[24px] text-xl text-[#FFF5B9] mt-6 text-center font-Cormorant-upright">
@@ -86,25 +88,29 @@ useEffect(() => {
           </p>
 
           <div className="flex flex-col justify-center items-center lg:ml-0 ml-24">
-            <h2 className="lg:text-7xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
-              With best Compliments <br />
-              from
-
+            <h2 className="lg:text-5xl text-xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
+              AWAITING THE PLEASURE OF <br /> YOUR COMPANY
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-2">
-               Ramautar, Sunita &
-               Vishakha Sharma
+                Pushpa S. Adwani
+              </h2>
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+                Mahesh K. Adwani - 9373955838 <br />
+                City Site
+              </h2>
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+                Haresh K. Adwani - 9421821082
+                <br />
+                Sudarshan Textile
+              </h2>
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-4">
+                With Love,
+                <br />
+                ADWANI FAMILY
               </h2>
             </h2>
-         
-
-               
-
-
-
-          
+          </div>
         </div>
-      </div>
       </div>
     </>
   );
-  }
+}
