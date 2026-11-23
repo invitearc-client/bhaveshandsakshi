@@ -297,6 +297,12 @@ export default function Home() {
               Late Smt. Dwaribai K. Adwani & Late Shri Kanhaiyalal M. Adwani
             </p>
 
+
+<p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
+             to celebrate the joyous wedding of
+            </p>
+
+
             <h2 className="text-white font-Cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
               BHAVESH
