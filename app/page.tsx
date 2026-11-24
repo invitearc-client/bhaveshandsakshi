@@ -362,7 +362,6 @@ export default function Home() {
                     alt={event.Main_title_ceremony2}
                     className="lg:w-80 w-80 sm:w-76  h-auto"
                   />
-
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.Main_title_ceremony}
                   </h2>
