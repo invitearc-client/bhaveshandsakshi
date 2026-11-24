@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-
+import { Phone } from "lucide-react";
 export default function MarriageCountdown() {
   const TARGET_DATE = new Date("2026-12-20").getTime();
   const [timeLeft, setTimeLeft] = useState({
@@ -53,11 +53,9 @@ export default function MarriageCountdown() {
 
   return (
     <>
-     
       <div className="md:bg-[url('/assets/countdown_desktop_bg.png')] bg-[url('/assets/countdown_mobile_bg.jpg')] bg-cover bg-no-repeat pb-12 md:pt-0 pt-10 ">
         <div className="min-h-260 md:min-h-300 lg:min-h-400 h-80">
-          
-<h1 className="lg:text-[40px] md:text-5xl text-[40px] text-center text-[#FFF5B9] lg:pt-10 pt-6 font-Cormorant-upright">
+          <h1 className="lg:text-[40px] md:text-5xl text-[40px] text-center text-[#FFF5B9] lg:pt-10 pt-6 font-Cormorant-upright">
             Our Countdown Start
           </h1>
           <h2 className="lg:text-[60px] text-5xl text-center text-[#FFF5B9] font-Cormorant-upright">
@@ -88,14 +86,33 @@ export default function MarriageCountdown() {
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-2">
                 Pushpa S. Adwani
               </h2>
-              
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+              {/* <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
                 Haresh K. Adwani - 9421821082
+                <br />
+                Sudarshan Textile
+              </h2> */}
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9] font-Cormorant-upright">
+                Haresh K. Adwani
+                <a
+                  href="tel:9421821082"
+                  className="inline-flex items-center gap-2  transition font-eb-garamond text-[18px] ml-2"
+                >
+                  <Phone size={16} />
+                  9421821082
+                </a>
                 <br />
                 Sudarshan Textile
               </h2>
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Mahesh K. Adwani - 9373955838 <br />
+                Mahesh K. Adwani
+                <a
+                  href="tel:9421821082"
+                  className="inline-flex items-center gap-2  transition font-eb-garamond text-[18px] ml-2"
+                >
+                  <Phone size={16} />
+                  9373955838
+                </a>
+                <br />
                 City Site
               </h2>
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-4">

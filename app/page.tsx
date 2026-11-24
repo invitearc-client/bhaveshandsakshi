@@ -260,7 +260,7 @@ export default function Home() {
 
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
-          <h2 className="text-[#15528A]  text-center leading-tight text-[36px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
+          <h2 className="text-[#15528A]  text-center leading-tight text-[38px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
             <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
               Bhavesh
             </span>
@@ -303,7 +303,7 @@ export default function Home() {
             </p>
 
 
-            <h2 className="text-white font-Cormorant-upright text-center mt-14
+            <h2 className="text-white font-Cormorant-upright text-center mt-5
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
               BHAVESH
             </h2>
@@ -330,7 +330,7 @@ export default function Home() {
            
           </div>
 
-          <div className="flex flex-col-1 justify-center items-center mt-16">
+          <div className="flex flex-col-1 justify-center items-center mt-10">
             <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2 text-center">
               <span className="text-[24px] uppercase font-bold">Venue</span>  <br />
               <span className="text-[24px] ">Vijan Mahal</span> <br />
