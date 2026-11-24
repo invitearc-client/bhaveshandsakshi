@@ -184,7 +184,7 @@ useEffect(() => {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/BHAVESH.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/bhavesh.mp3" loop preload="auto" playsInline />
 
 
 
