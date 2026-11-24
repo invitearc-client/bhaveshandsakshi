@@ -46,7 +46,7 @@ export default function Home() {
     {
       date: "Saturday, 19th December 2026",
       Main_title_ceremony: "Full Filmy Phool Masti",
-      image: "/assets/carnival.webp",
+      image: "/assets/carnival_n.webp",
       time: "1:00pm - 4:00pm",
       venue: "Venue: Pool Lawn",
 
@@ -59,7 +59,7 @@ export default function Home() {
     {
       date: "Sunday, 20th December 2026",
 
-      Main_title_ceremony: "Saath Sugun",
+      Main_title_ceremony: "Saath Sagun",
       image: "/assets/carnival.webp",
       time: "8:00am",
     
@@ -280,7 +280,7 @@ export default function Home() {
               className="md:w-40 w-28 h-auto"
             />
 
-            <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
+            <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[30px] font-semibold">
               THE ADWANI FAMILY
             </h2>
           </div>
@@ -315,9 +315,9 @@ export default function Home() {
             </p>
 
 
-            <h2 className="text-white font-Cormorant-upright text-center mt-4
+            <h2 className="text-white font-Cormorant-upright text-center 
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
-              <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4 
+              <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4
             md:text-4xl text-[32px] lg:text-[60px] leading-tight">Weds</span>   <br />
               SAKSHI
             </h2>
@@ -327,9 +327,7 @@ export default function Home() {
 
             </p>
 
-            <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
-              On the following events
-            </p>
+           
           </div>
 
           <div className="flex flex-col-1 justify-center items-center mt-16">
@@ -362,7 +360,7 @@ export default function Home() {
                   <img
                     src={event.image}
                     alt={event.Main_title_ceremony2}
-                    className="lg:w-80 w-60 sm:w-76  h-auto"
+                    className="lg:w-80 w-80 sm:w-76  h-auto"
                   />
 
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
@@ -497,16 +495,16 @@ export default function Home() {
 
 
 
-          <div className="lg:h-350 md:h-180 h-86 lg:pt-20 pt-30 lg:pr-180 md:pr-100 pr-40 flex flex-col justify-end items-center text-center md:pb-40 pb-10 lg:pb-0  ">
+          <div className="lg:h-200 md:h-180 h-60 lg:pt-20 pt-30 lg:pr-180 md:pr-100 pr-40 flex flex-col justify-end items-center text-center md:pb-40 pb-10 lg:pb-0  ">
 
-            <h1 className="lg:text-7xl md:text-xl text-xl text-[#E1EF1E] font-parisienne ">
+            {/* <h1 className="lg:text-7xl md:text-xl text-xl text-[#E1EF1E] font-parisienne ">
               With <br /> Love From Us
             </h1>
 
             <h2 className="lg:text-[40px] md:text-xl text-[14px] text-[#ADBAE7] lg:pt-12 pt-6  font-eb-garamond md:leading-6 lg:leading-12 leading-5 lg:px-40">
 
               Two hearts, one journey and countless dreams to share! We can't wait to celebrate our special moments with the people who make our lives beautiful.Your presence and blessings will make our celebrations even more special and memorable.
-            </h2>
+            </h2> */}
           </div>
 
         </div>
@@ -538,18 +536,7 @@ export default function Home() {
 
 
       <div className="w-full relative">
-        <picture className="block w-full">
-          <source
-            media="(min-width: 768px)"
-            srcSet="/assets/bride1.png"
-          />
-
-          <img
-            src="/assets/bide_mobilet.jpg"
-            alt=""
-            className="block w-full h-auto"
-          />
-        </picture>
+        
 
         {/* <p className="absolute md:top-50 lg:top-110 top-55 left-0 w-full text-center text-[#071949] font-Cormorant-upright lg:text-[50px] md:text-2xl text-[32px] z-10 font-bold">
           #SAKSHIGotBHAVESH

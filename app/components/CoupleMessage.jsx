@@ -11,16 +11,12 @@ export default function CoupleMessage() {
   return (
     <>
       <div className="bg-[url('/assets/couple_bg.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-510 md:h-400 h-540 pt-2">
-          <h1 className="lg:text-[40px] md:text-5xl text-[44px] text-center text-[#FFF5B9] lg:pt-30 pt-12 font-parisienne">
-            A message from the couple
+        <div className="lg:h-310 md:h-200 h-190 pt-2">
+          <h1 className="lg:text-[40px] md:text-5xl text-[40px] text-center text-[#FFF5B9] lg:pt-30 pt-12 font-parisienne">
+            With Love From Us
           </h1>
-          <h2 className="lg:text-[30px] text-[18px]  text-center text-[#FFF5B9] lg:px-60 px-6 lg:mt-28 mt-12 font-Cormorant-upright lg:leading-8 md:leading-8 leading-6">
-            For a beautiful journey, join us as we celebrate love, laughter and
-            forever. This moment wouldn't be the same without the people we love
-            the most. Thank you for your love, blessings and for making our
-            journey even more special, we're so excited to celebrate this
-            together!
+          <h2 className="lg:text-[30px] text-[18px]  text-center text-[#FFF5B9] lg:px-60 px-6 lg:mt-28 mt-6 font-Cormorant-upright lg:leading-8 md:leading-8 leading-6">
+           Two hearts, one journey and countless dreams to share! We can't wait to celebrate our special moments with the people who make our lives beautiful.Your presence and blessings will make our celebrations even more special and memorable.
           </h2>
           <div className="w-full md:mt-32 mt-12">
             <Swiper
@@ -84,66 +80,8 @@ export default function CoupleMessage() {
             </Swiper>
           </div>
 
-          <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF5B9] lg:pt-32 pt-12 font-parisienne">
-            A Guide for <br /> Guests
-          </h1>
-          <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
-            Your presence means the world to us. To make your experience
-            effortless <br className="hidden lg:block" /> and enjoyable, we’ve
-            gathered a few useful details below.
-          </h2>
-          <div className="flex justify-center mt-20 pb-24">
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
-              <div className="flex flex-col items-center justify-center text-center">
-                <img
-                  src="/assets/weather_h.png"
-                  alt="weather"
-                  className="lg:h-20 lg:w-24 h-26 w-32 "
-                />
-                <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
-                  Weather
-                </h2>
-                <p className="text-[14px] text-[#FFF5B9] mt-1 font-cormorant">
-                  It will be mostly cloudy with <br />
-                  temperature reaching up <br />
-                  to 22 degrees at the venue
-                </p>
-              </div>
-              <div className="flex flex-col items-center justify-center text-center">
-                <img
-                  src="/assets/drive_h.png"
-                  alt="drive"
-                  className="lg:h-22 lg:w-21 h-32 w-32"
-                />
-                <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
-                  Staff
-                </h2>
-                <p className="text-[14px] text-[#FFF5B9] mt-1 font-cormorant">
-                  We recommend nearby <br/>accommodation near the <br/>venue for the staff members.
-                </p>
-              </div>
-              <div className="flex flex-col items-center justify-center text-center">
-                <img
-                  src="/assets/car_h.png"
-                  alt="car"
-                  className="lg:h-20 lg:w-24 h-26 w-32 "
-                />
-                <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
-                  Parking
-                </h2>
-                <p className="text-[14px] text-[#FFF5B9] mt-1 font-cormorant">
-                  Valet parking for all our <br />
-                  guests will be available <br />
-                  at the venue
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
-            Your presence means the world to us. To make your experience
-            effortless <br className="hidden lg:block"/> and enjoyable, we’ve gathered a few useful details
-            below.
-          </h2> */}
+          
+         
         </div>
       </div>
     </>
