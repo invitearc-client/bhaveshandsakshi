@@ -54,11 +54,11 @@ export default function MarriageCountdown() {
   return (
     <>
       <div className="md:bg-[url('/assets/countdown_desktop_bg.png')] bg-[url('/assets/countdown_mobile_bg.jpg')] bg-cover bg-no-repeat pb-12 md:pt-0 pt-10 ">
-        <div className="min-h-260 md:min-h-300 lg:min-h-400 h-80">
+        <div className="min-h-280 md:min-h-300 lg:min-h-400 h-80">
           <h1 className="lg:text-[40px] md:text-5xl text-[40px] text-center text-[#FFF5B9] uppercaselg:pt-10 pt-6 font-Cormorant-upright">
             Our Countdown Start
           </h1>
-          <h2 className="lg:text-[60px] text-[36px] text-center text-[#FFF5B9] font-eb-garamond">
+          <h2 className="lg:text-[60px] text-[36px] text-center text-[#FFF5B9] font-Cormorant-upright">
             {" "}
             {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M{" "}
             {timeLeft.seconds}S
@@ -83,35 +83,33 @@ export default function MarriageCountdown() {
           <div className="flex flex-col justify-center items-center ">
             <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
               AWAITING THE PLEASURE OF <br /> YOUR COMPANY
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-2">
+              <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9]  font-Cormorant-upright mt-2 font-bold">
                 Pushpa S. Adwani
               </h2>
-             
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9] font-Cormorant-upright">
-                Haresh K. Adwani
-                <a
-                  href="tel:9421821082"
-                  className="inline-flex items-center gap-2  transition font-eb-garamond text-[18px] ml-2"
-                >
-                  <Phone size={16} />
-                  9421821082
-                </a>
-                <br />
-                Sudarshan Textile
+              <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9] font-Cormorant-upright mt-4 font-bold">
+                Haresh K. Adwani{" "}
               </h2>
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Mahesh K. Adwani
-                <a
-                  href="tel:9421821082"
-                  className="inline-flex items-center gap-2  transition font-eb-garamond text-[18px] ml-2"
-                >
-                  <Phone size={16} />
-                  9373955838
-                </a>
-                <br />
-                City Site
+              <a
+                href="tel:9421821082"
+                className="inline-flex items-center gap-2  transition font-eb-garamond text-[17px] ml-2"
+              >
+                <Phone size={15} />
+                9421821082
+              </a>
+              <p className="text-[19px] -mt-1"> Sudarshan Textile</p>
+              <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9] font-Cormorant-upright mt-4 font-bold">
+                Mahesh K. Adwani{" "}
               </h2>
-              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-4">
+              <a
+                href="tel:9421821082"
+                className="inline-flex items-center gap-2  transition font-eb-garamond text-[17px] ml-2"
+              >
+                <Phone size={15} />
+                9373955838
+              </a>
+              <br />
+              <p className="text-[19px] -mt-1">City Site</p>
+              <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-4">
                 With Love,
                 <br />
                 ADWANI FAMILY

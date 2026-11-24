@@ -42,6 +42,25 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 };
 
 export default function Home() {
+const [showScroll, setShowScroll] = useState(true);
+
+useEffect(() => {
+  const handleScroll = () => {
+    setShowScroll(window.scrollY < 20);
+  };
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+
+  handleScroll();
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
+
+
+
+
   const events = [
     {
       date: "Saturday, 19th December 2026",
@@ -167,6 +186,48 @@ export default function Home() {
 
       <audio ref={audioRef} src="/assets/BHAVESH.mp3" loop preload="auto" playsInline />
 
+
+
+<div className="fixed bottom-20 right-2 z-50 flex flex-col items-center">
+  <button
+    type="button"
+    onClick={() => {
+      window.scrollBy({
+        top: window.innerHeight * 0.7,
+        behavior: "smooth",
+      });
+    }}
+    className="flex flex-col items-center gap-2 text-[#fff]"
+    aria-label="Scroll down to explore"
+  >
+    <span className="flex h-16 w-6 items-center justify-center rounded-full border-2 border-[#C14405] bg-[#C14405] cursor-pointer">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="m7 10 5 5 5-5" />
+        <path d="m7 5 5 5 5-5" />
+      </svg>
+    </span>
+
+    <span className="animate-pulse text-[12px] tracking-[2px] poppins-bold  font-bold text-[#C14405]">
+      SCROLL <br /> DOWN
+    </span>
+   
+  </button>
+
+</div>
+
+
+
+
+
       <div className="
     bg-[url('/assets/bhavesh_mobile.webp')]
     md:bg-[url('/assets/bhavesh_desktop.webp')]  3xl:bg-[url('/assets/bhavesh_desktop.webp')]
@@ -259,12 +320,12 @@ export default function Home() {
 
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
-          <h2 className="text-[#15528A]  text-center leading-tight text-[37px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
+          <h2 className="text-[#15528A]  text-center leading-tight text-[38px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
             <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] ml-4">
               Bhavesh
             </span>
-            <span className="text-[14px] sm:text-3xl tracking-[6px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Sakshi</span>
+            <span className="text-[16px] sm:text-3xl tracking-[6px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
+            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] mt-2">Sakshi</span>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150 3xl:pt-280">
@@ -279,7 +340,7 @@ export default function Home() {
               className="md:w-40 w-28 h-auto"
             />
 
-            <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[30px] font-semibold">
+            <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[32px] font-semibold">
               THE ADWANI FAMILY
             </h2>
           </div>
