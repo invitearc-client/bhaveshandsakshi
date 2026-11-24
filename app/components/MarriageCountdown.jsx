@@ -86,11 +86,7 @@ export default function MarriageCountdown() {
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-2">
                 Pushpa S. Adwani
               </h2>
-              {/* <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Haresh K. Adwani - 9421821082
-                <br />
-                Sudarshan Textile
-              </h2> */}
+             
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9] font-Cormorant-upright">
                 Haresh K. Adwani
                 <a

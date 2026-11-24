@@ -46,7 +46,7 @@ export default function Home() {
     {
       date: "Saturday, 19th December 2026",
       Main_title_ceremony: "Full Filmy Phool Masti",
-      image: "/assets/carnival_n.webp",
+      image: "/assets/carnival.webp",
       time: "1:00pm - 4:00pm",
       venue: "Venue: Pool Lawn",
 
@@ -60,7 +60,7 @@ export default function Home() {
       date: "Sunday, 20th December 2026",
 
       Main_title_ceremony: "Saath Sagun",
-      image: "/assets/carnival.webp",
+      image: "/assets/sagun.webp",
       time: "8:00am",
     
 
@@ -97,7 +97,6 @@ export default function Home() {
       time7: "10:00pm – 12:00am",
       // venue7: "Mahal Terrace",
       image7: "/assets/jam.webp",
-
 
 
 
@@ -260,8 +259,8 @@ export default function Home() {
 
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
-          <h2 className="text-[#15528A]  text-center leading-tight text-[38px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
-            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
+          <h2 className="text-[#15528A]  text-center leading-tight text-[37px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
+            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] ml-4">
               Bhavesh
             </span>
             <span className="text-[14px] sm:text-3xl tracking-[6px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
@@ -360,7 +359,7 @@ export default function Home() {
                   <img
                     src={event.image}
                     alt={event.Main_title_ceremony2}
-                    className="lg:w-80 w-80 sm:w-76  h-auto"
+                    className="lg:w-80 w-60 sm:w-76  h-auto"
                   />
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.Main_title_ceremony}
