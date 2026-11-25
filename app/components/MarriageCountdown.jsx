@@ -56,7 +56,7 @@ export default function MarriageCountdown() {
       <div className="md:bg-[url('/assets/countdown_desktop_bg.png')] bg-[url('/assets/countdown_mobile_bg.jpg')] bg-cover bg-no-repeat pb-12 md:pt-0 pt-10 ">
         <div className="min-h-280 md:min-h-300 lg:min-h-400 h-80">
           <h1 className="lg:text-[40px] md:text-5xl text-[40px] text-center text-[#FFF5B9] uppercaselg:pt-10 pt-6 font-Cormorant-upright">
-            Our Countdown Start
+            Our Countdown Starts
           </h1>
           <h2 className="lg:text-[60px] text-[36px] text-center text-[#FFF5B9] font-Cormorant-upright">
             {" "}

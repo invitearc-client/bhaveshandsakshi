@@ -66,11 +66,11 @@ useEffect(() => {
       date: "Saturday, 19th December 2026",
       Main_title_ceremony: "Full Filmy Phool Masti",
       image: "/assets/carnival.webp",
-      time: "1:00pm - 4:00pm",
+      time: "1:00 pm - 4:00 pm",
       venue: "Venue: Pool Lawn",
 
       Main_title_ceremony2: "Disco Deewaane",
-      time2: "8:00pm – 11:00pm",
+      time2: "8:00 pm – 11:00 pm",
       venue2: "Venue: Podium Lawn",
       image2: "/assets/deewane.webp",
 
@@ -80,40 +80,40 @@ useEffect(() => {
 
       Main_title_ceremony: "Saath Sagun",
       image: "/assets/sagun.webp",
-      time: "8:00am",
+      time: "8:00 am",
     
 
 
       Main_title_ceremony2: "Sehra Bandhan",
       image2: "/assets/sehra.webp",
-      time2: "11:30am",
+      time2: "11:30 am",
       venue2: "Venue: Anand Karaj Hall",
 
       Main_title_ceremony3: "Band Baaja Baarat",
-      time3: "12:30pm – 2:00pm",
+      time3: "12:30 pm – 2:00 pm",
       // venue3: "Pool Lawn",
       image3: "/assets/baarat.webp",
 
       Main_title_ceremony4: "Baaraatiyon Ka Dil Se Swagat",
-      time4: "2:00pm – 3:00pm",
+      time4: "2:00 pm – 3:00 pm",
       venue4: "Venue: Anand Karaj Hal",
       image4: "/assets/swagat.webp",
 
 
       Main_title_ceremony5: "Jai Mala",
-      time5: "5:00pm",
+      time5: "5:00 pm",
       venue5: "Venue: Mahal Terrace",
       image5: "/assets/jai_mala.webp",
 
 
       Main_title_ceremony6: "Saat Vachan",
-      time6: "6:00pm – 8:00pm",
+      time6: "6:00 pm – 8:00 pm",
       venue6: "Venue: Mahal Terrace",
       image6: "/assets/vachan.webp",
 
 
       Main_title_ceremony7: "The Family Jam",
-      time7: "10:00pm – 12:00am",
+      time7: "10:00 pm – 12:00 am",
       // venue7: "Mahal Terrace",
       image7: "/assets/jam.webp",
 
