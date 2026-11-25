@@ -320,12 +320,12 @@ useEffect(() => {
 
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
-          <h2 className="text-[#15528A]  text-center leading-tight text-[38px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
-            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] ml-4">
+          <h2 className="text-[#15528A]  text-center leading-tight text-[38px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-0">
+            <span className="font-eb-garamond [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
               Bhavesh
             </span>
             <span className="text-[16px] sm:text-3xl tracking-[6px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="great-vibes-regular [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] mt-2">Sakshi</span>
+            <span className="font-eb-garamond [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Sakshi</span>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150 3xl:pt-280">
@@ -354,7 +354,7 @@ useEffect(() => {
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
               cordially invites you<br />
               With the heavenly blessings of <br />
-              Late Smt. Dwaribai K. Adwani & Late Shri Kanhaiyalal M. Adwani
+              Late Smt. Dwaribai & Shri Kanhaiyalal Adwani
             </p>
 
 

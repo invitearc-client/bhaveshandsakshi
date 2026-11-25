@@ -84,7 +84,7 @@ export default function MarriageCountdown() {
             <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
               AWAITING THE PLEASURE OF <br /> YOUR COMPANY
               <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9]  font-Cormorant-upright mt-2 font-bold">
-                Pushpa S. Adwani
+                Pushpadevi Sureshlal Adwani
               </h2>
               <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9] font-Cormorant-upright mt-4 font-bold">
                 Haresh K. Adwani{" "}
@@ -101,7 +101,7 @@ export default function MarriageCountdown() {
                 Mahesh K. Adwani{" "}
               </h2>
               <a
-                href="tel:9421821082"
+                href="tel:9373955838"
                 className="inline-flex items-center gap-2  transition font-eb-garamond text-[17px] ml-2"
               >
                 <Phone size={15} />
