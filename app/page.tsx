@@ -114,7 +114,7 @@ useEffect(() => {
 
       Main_title_ceremony7: "The Family Jam",
       time7: "10:00 pm – 12:00 am",
-      // venue7: "Mahal Terrace",
+      venue7: "Mahal Terrace",
       image7: "/assets/jam.webp",
 
 
@@ -542,9 +542,9 @@ useEffect(() => {
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
                     <span className="text-[22px]">  {event.time7} </span>
                   </p>
-                  {/* <p className="text-white font-Cormorant-upright text-[14px] sm:text-[24px]">
+                  <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue7}
-                  </p> */}
+                  </p>
 
 
                 </div>
