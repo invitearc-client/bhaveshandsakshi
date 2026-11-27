@@ -354,7 +354,7 @@ useEffect(() => {
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
               cordially invites you<br />
               With the heavenly blessings of <br />
-              Late Smt. Dwaribai & Shri Kanhaiyalal Adwani
+              Late Smt. Dwaribai & Late Shri Kanhaiyalal Adwani
             </p>
 
 
